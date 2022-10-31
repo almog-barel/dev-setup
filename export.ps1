@@ -1,1 +1,0 @@
-copy $profile .\Microsoft.PowerShell_profile.ps1
