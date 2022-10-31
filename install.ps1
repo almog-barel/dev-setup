@@ -4,6 +4,7 @@
 winget install -e --id starship
 winget install -e --id JanDeDobbeleer.OhMyPosh
 winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id SourceFoundry.HackFonts
 
 # IDEs
 winget install -e --id Microsoft.VisualStudioCode
