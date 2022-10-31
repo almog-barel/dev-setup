@@ -1,0 +1,15 @@
+[user]
+	name = almog bar-el
+	email = almogb@nanolocksec.com
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[safe]
+	directory = C:/nanoLock/NanoLockSec.Services.Management.Api
+	directory = C:/nanoLock/NanoLockSec.External.Secured.PLCS.Mngt.Client
+	directory = C:/dev-setup
+[color]
+	ui = true
