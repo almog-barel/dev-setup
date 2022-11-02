@@ -39,7 +39,7 @@ function title {
 }
 
 function ip {
-    ipconfig | findstr v4 | findstr 192.168
+    ((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1]
 }
 
 
