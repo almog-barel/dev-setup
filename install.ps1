@@ -1,20 +1,20 @@
-# first install
-
-# treminal
-winget install -e --id starship
-winget install -e --id JanDeDobbeleer.OhMyPosh
-winget install -e --id Microsoft.WindowsTerminal
-winget install -e --id SourceFoundry.HackFonts
-
-# IDEs
-winget install -e --id Microsoft.VisualStudioCode
-winget install -e --id Microsoft.VisualStudio.2022.Community
-
 # programin languges
 winget install -e --id GoLang.Go.1.18
 winget install -e --id OpenJS.NodeJS.LTS
 winget install -e --id Python.Python.3.9
 winget install -e --id Microsoft.DotNet.SDK.6
+
+# treminal tool and commands
+winget install -e --id starship
+winget install -e --id JanDeDobbeleer.OhMyPosh
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id SourceFoundry.HackFonts
+npm install -g tldr
+
+# IDEs
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Microsoft.VisualStudio.2022.Community
+
 
 # dev tools
 winget install -e --id Git.Git
