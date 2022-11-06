@@ -44,11 +44,20 @@ function title {
     $host.ui.RawUI.WindowTitle = “Changed Title”
 }
 
-function ip {
-    echo "local : $(((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1])"
-    echo "global : $((curl 'https://api.ipify.org?format=json').Content | jq .ip -r)"
+
+function ip-local {
+    ((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1]
 }
 
+
+function ip-global {
+    (curl 'https://api.ipify.org?format=json').Content | jq .ip -r
+}
+
+function ip {
+    echo "local : $(ip-local)"
+    echo "global : $(ip-global)"
+}
 
 function update-database {
     dotnet ef database update
