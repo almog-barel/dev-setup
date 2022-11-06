@@ -26,6 +26,12 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 # set Autocompletion based on history of commands
 Set-PSReadLineOption -PredictionSource History
 
+#During auto completion, pressing arrow key up or down will move the cursor to the end of the completion
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+
+#Shows tooltip during completion
+Set-PSReadLineOption -ShowToolTips
+
 function cdc {
     cd -Path C:\
 }
@@ -39,7 +45,8 @@ function title {
 }
 
 function ip {
-    ((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1]
+    echo "local : $(((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1])"
+    echo "global : $((curl 'https://api.ipify.org?format=json').Content | jq .ip -r)"
 }
 
 
@@ -64,6 +71,7 @@ function run-keycloak {
 
 function run-rabbitmq {
     docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.10-management
+    # docker-compose -f c:\nanoLock\local\docker-compose-rabbitmq.yml up --detach
 }
 
 function mobba {
@@ -71,6 +79,10 @@ function mobba {
 }
 
 New-Alias -Name "chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" -EA SilentlyContinue
+
+function chrome-local-app {
+    chrome http://localhost:4201/audit
+}
 
 function chrome-local-rabbitmq {
     chrome http://localhost:15672/
@@ -94,7 +106,6 @@ $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
-
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
@@ -120,4 +131,3 @@ Register-ArgumentCompleter -CommandName ssh,scp,sftp -Native -ScriptBlock {
         }
     }
 }
-
