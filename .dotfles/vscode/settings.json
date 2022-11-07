@@ -1,0 +1,54 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.fontFamily": "Hack NF",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    "cSpell.userWords": [
+        "keyclock",
+        "nlms",
+        "otui",
+        "seccsussfull"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "vscodeGitCommit.variables": {
+        "prefix": "keke"
+    },
+    "git.mergeEditor": false,
+    "window.title": "${rootName}",
+    "codestream.serverUrl": "https://api.codestream.com",
+    "remote.SSH.remotePlatform": {
+        "dev01": "linux",
+        "nl": "linux",
+        "QaBystronic": "linux"
+    },
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "gitlens.views.branches.branches.layout": "list",
+    "errorLens.enabledDiagnosticLevels": [
+        "warning",
+        "info"
+    ],
+    "yaml.schemas": {
+        "file:///c%3A/Users/almog/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "40304f10-d532-4607-b205-49feec62213d",
+            "enabled": true,
+            "name": "My nanolocksec Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "b6b18c99-3022-4b10-9b46-4e1bc0aa8b39",
+            "monitor": true
+        }
+    ],
+    "window.zoomLevel": 1
+}

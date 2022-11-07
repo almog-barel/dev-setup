@@ -35,7 +35,7 @@ winget install -e --id Microsoft.PowerToys
 winget install -e --id SlackTechnologies.Slack
 
 # vs code extension
-# code --install|uninstall-extension
+# backup the current extension list with : code --list-extensions | % { "code --install-extension $_" }XK9XR58A
 code --install-extension 2gua.rainbow-brackets
 code --install-extension aaron-bond.better-comments
 code --install-extension akamud.vscode-theme-onedark
