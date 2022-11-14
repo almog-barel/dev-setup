@@ -9,5 +9,9 @@
         "key": "ctrl+pagedown",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
+    },{
+        "key": "ctrl+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]
