@@ -32,6 +32,8 @@ Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 #Shows tooltip during completion
 Set-PSReadLineOption -ShowToolTips
 
+# Set-PSReadLineOption ListView 
+
 function cdc {
     cd -Path C:\
 }
@@ -44,11 +46,9 @@ function title {
     $host.ui.RawUI.WindowTitle = “Changed Title”
 }
 
-
 function ip-local {
     ((ipconfig | findstr v4 | findstr 192.168) -split " : " )[-1]
 }
-
 
 function ip-global {
     (curl 'https://api.ipify.org?format=json').Content | jq .ip -r
@@ -79,12 +79,16 @@ function run-keycloak {
 }
 
 function run-rabbitmq {
-    docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.10-management
+    docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.10-management --detach
     # docker-compose -f c:\nanoLock\local\docker-compose-rabbitmq.yml up --detach
 }
 
 function mobba {
     C:\mobba\MobaXterm_Personal_22.1.exe
+}
+
+function guid {
+    [guid]::NewGuid().Guid
 }
 
 New-Alias -Name "chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" -EA SilentlyContinue
@@ -107,6 +111,14 @@ function chrome-dev01-keyclock {
 
 function chrome-dev01-swagger {
     chrome https://dev01-api.nanolocksecurity.nl/swagger/index.html
+}
+
+function ssh-connect {
+    $hostsList = Get-Content ${Env:HOMEPATH}\.ssh\config | Select-String -Pattern "^Host " | ForEach-Object { $_ -replace "host ", "" } | Sort-Object -Unique
+    gum choose $hostsList
+    # $hostname = gum choose $hostsList
+    echo $hostname
+    # ssh $hostname
 }
 
 $dev01 = "dev01.nanolocksecurity.nl"
