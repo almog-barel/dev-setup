@@ -11,5 +11,11 @@
 	directory = C:/nanoLock/NanoLockSec.Services.Management.Api
 	directory = C:/nanoLock/NanoLockSec.External.Secured.PLCS.Mngt.Client
 	directory = C:/dev-setup
+	directory = C:/nanoLock/NanoLockSec.Tools
 [color]
 	ui = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
