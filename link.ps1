@@ -10,3 +10,6 @@ New-Item -Path ~\.gitconfig -ItemType SymbolicLink -Value .\.dotfles\.gitconfig 
 New-Item -Path ~\AppData\Roaming\Code\User\keybindings.json -ItemType SymbolicLink -Value .\.dotfles\vscode\keybindings.json -Force
 New-Item -Path ~\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Value .\.dotfles\vscode\settings.json -Force
 New-Item -Path ~\AppData\Roaming\Code\User\snippets -ItemType SymbolicLink -Value .\.dotfles\vscode\snippets -Force
+
+#cchrome bookmarks
+New-Item -Path '~\AppData\Local\Google\Chrome\User Data\Default\Bookmarks' -ItemType SymbolicLink -Value .\.dotfles\chrome\Bookmarks -Force

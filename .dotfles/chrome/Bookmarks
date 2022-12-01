@@ -1,0 +1,861 @@
+{
+   "checksum": "8faf2c754feafa4a8c04eecbeb85afe5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13303227468982083",
+            "date_last_used": "13314274349798168",
+            "guid": "8be18151-265f-412b-9db9-d0b2fe4202e1",
+            "id": "13",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13276770093000000",
+                     "date_last_used": "0",
+                     "guid": "168105c5-be59-4a11-a79b-2c7cdcd31823",
+                     "id": "32",
+                     "name": "LocalHost - nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "http://localhost:8072/Account/Login?returnUrl=%2F"
+                  } ],
+                  "date_added": "13307455067676246",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "2b9effb6-daca-4fda-ad51-6c8dc7e68083",
+                  "id": "31",
+                  "name": "Local",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13279617342000000",
+                     "date_last_used": "13310987975467590",
+                     "guid": "a5c74037-8308-40a2-96e9-9e34621b4ecc",
+                     "id": "34",
+                     "name": "Bystronic - nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://bystronic.nanolocksecurity.nl/Account/Login?returnUrl=%2FHome"
+                  } ],
+                  "date_added": "13307455067676420",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "041da994-c568-4e7b-8aa8-045026193c3e",
+                  "id": "33",
+                  "name": "Bystronic",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13298467244000000",
+                     "date_last_used": "0",
+                     "guid": "19e8b73e-f154-4196-8615-d3542a1ad9ab",
+                     "id": "36",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://dev-bystronic.nanolocksecurity.nl/Account/Login?ReturnUrl=%2F"
+                  }, {
+                     "date_added": "13305718521000000",
+                     "date_last_used": "0",
+                     "guid": "6f8d806c-7caf-4604-919a-7a29436ceb48",
+                     "id": "37",
+                     "name": "Welcome to Keycloak",
+                     "type": "url",
+                     "url": "https://dev-bystronic-auth.nanolocksecurity.nl/auth/"
+                  } ],
+                  "date_added": "13307455067676584",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "5134e952-fb06-441e-bad2-c7227dce895c",
+                  "id": "35",
+                  "name": "Bystronic-DEV",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13276533569000000",
+                     "date_last_used": "0",
+                     "guid": "fcdbd6e6-6bae-4058-bf26-3e036c73bfe7",
+                     "id": "39",
+                     "name": "NL - nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://nl.nanolocksecurity.nl/"
+                  }, {
+                     "date_added": "13276873923000000",
+                     "date_last_used": "13313597914183976",
+                     "guid": "6540d078-dd75-4016-8b86-7c1433fe3d52",
+                     "id": "40",
+                     "name": "Keycloak Admin - nl",
+                     "type": "url",
+                     "url": "https://nl-auth.nanolocksecurity.nl/auth/"
+                  }, {
+                     "date_added": "13277137499000000",
+                     "date_last_used": "0",
+                     "guid": "8ec9b848-26a1-4d8d-ad26-15a3a971a88b",
+                     "id": "41",
+                     "name": "NL - RabbitMQ Management",
+                     "type": "url",
+                     "url": "https://nl.nanolocksecurity.nl/mq/#/exchanges/%2F/Guid"
+                  }, {
+                     "date_added": "13279550796000000",
+                     "date_last_used": "13312885181510116",
+                     "guid": "d8aa6450-cac9-4b31-8539-0d59ac4c6530",
+                     "id": "42",
+                     "name": "Keycloak User Account - nl",
+                     "type": "url",
+                     "url": "https://nl-auth.nanolocksecurity.nl/auth/realms/nanolocksec/protocol/openid-connect/auth?client_id=account"
+                  }, {
+                     "date_added": "13280144688000000",
+                     "date_last_used": "13310987723685461",
+                     "guid": "bdb6a5c9-c2c9-43df-ad59-10de1c4e3f18",
+                     "id": "43",
+                     "name": "Keycloak - master admin console",
+                     "type": "url",
+                     "url": "https://nl-auth.nanolocksecurity.nl/auth/admin/nanolocksec/console"
+                  }, {
+                     "date_added": "13299257333000000",
+                     "date_last_used": "0",
+                     "guid": "ef0dd53d-cfcd-4db9-8f7e-063110656831",
+                     "id": "44",
+                     "name": "Swagger UI",
+                     "type": "url",
+                     "url": "https://nl-api.nanolocksecurity.nl/swagger/index.html"
+                  }, {
+                     "date_added": "13302267252000000",
+                     "date_last_used": "0",
+                     "guid": "fedbdfce-3abb-41fe-9c1a-429f7999830e",
+                     "id": "45",
+                     "name": "Configurations",
+                     "type": "url",
+                     "url": "http://nl.nanolocksecurity.nl:8090/"
+                  } ],
+                  "date_added": "13307455067676830",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "3f510a6b-f8d7-43e2-a4ba-9e0a9211c0c6",
+                  "id": "38",
+                  "name": "NL",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13282814307000000",
+                     "date_last_used": "0",
+                     "guid": "22ff3f32-ffac-434c-a61d-b0d814b3c2fe",
+                     "id": "47",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://yehuda-server.nanolocksecurity.nl/Account/Login?returnUrl=%2FDevice"
+                  } ],
+                  "date_added": "13307455067677517",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "7b50f0e3-2fb4-4d36-a6ba-b4061e98abe7",
+                  "id": "46",
+                  "name": "yehuda-server",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13284645597000000",
+                     "date_last_used": "0",
+                     "guid": "a4d5d18e-eadb-425b-8aab-aec9216bc420",
+                     "id": "49",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://grupo-bimbo.nanolocksecurity.nl/Account/Login?ReturnUrl=%2F"
+                  }, {
+                     "date_added": "13284650440000000",
+                     "date_last_used": "0",
+                     "guid": "517a41e3-7312-40cb-b3cb-408024bb161b",
+                     "id": "50",
+                     "name": "Keycloak - Admin Console",
+                     "type": "url",
+                     "url": "https://grupo-bimbo-auth.nanolocksecurity.nl/auth/"
+                  }, {
+                     "date_added": "13284650867000000",
+                     "date_last_used": "0",
+                     "guid": "5cc4e3ae-45ca-4507-a7b3-6a0c62a18fa3",
+                     "id": "51",
+                     "name": "Keycloak - User Account",
+                     "type": "url",
+                     "url": "https://grupo-bimbo-auth.nanolocksecurity.nl/auth/realms/nanolocksec/account"
+                  } ],
+                  "date_added": "13307455067677689",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "c5c356d3-b1fb-4c9b-ac29-1347454c0d77",
+                  "id": "48",
+                  "name": "Grupo-Bimbo",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13305049856000000",
+                     "date_last_used": "13314182484966131",
+                     "guid": "c1eaefb2-3243-4761-9413-ccd1d07ec0b1",
+                     "id": "53",
+                     "name": "NanoLock NLMS",
+                     "type": "url",
+                     "url": "https://dev01-gb.nanolocksecurity.nl/"
+                  }, {
+                     "date_added": "13305049896000000",
+                     "date_last_used": "13314181563478992",
+                     "guid": "3c0e1a69-4126-48a6-a526-a584f23c130d",
+                     "id": "54",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://dev01.nanolocksecurity.nl/Account/Login?returnUrl=%2FHome&isError=False"
+                  }, {
+                     "date_added": "13305049910000000",
+                     "date_last_used": "13314181642705193",
+                     "guid": "2f00bf94-2830-4e85-91af-bc82b49179e0",
+                     "id": "55",
+                     "name": "Configurations",
+                     "type": "url",
+                     "url": "http://dev01.nanolocksecurity.nl:8090/"
+                  }, {
+                     "date_added": "13305109399000000",
+                     "date_last_used": "13314181566177538",
+                     "guid": "8914d46c-0325-4bd6-bf08-aa2e024cde4f",
+                     "id": "56",
+                     "name": "Welcome to Keycloak",
+                     "type": "url",
+                     "url": "https://dev01-auth.nanolocksecurity.nl/auth/"
+                  }, {
+                     "date_added": "13306238069000000",
+                     "date_last_used": "0",
+                     "guid": "eeada359-503d-4c33-84ef-477cc7e31e88",
+                     "id": "57",
+                     "name": "Swagger UI",
+                     "type": "url",
+                     "url": "https://dev01-api.nanolocksecurity.nl/swagger/index.html"
+                  } ],
+                  "date_added": "13307455067678041",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "6293ffe6-da3d-4401-9416-8bea70c73565",
+                  "id": "52",
+                  "name": "Dev01",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13305911008000000",
+                     "date_last_used": "13310987983113720",
+                     "guid": "ac7c799c-4aea-47a5-b511-71abdc42a75c",
+                     "id": "59",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://qa-bystronic.nanolocksecurity.nl/Account/Login?returnUrl=%2F"
+                  } ],
+                  "date_added": "13307455067678770",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "f806f9b8-dfc3-4a84-84a3-462a7c733e70",
+                  "id": "58",
+                  "name": "qa-bystronic",
+                  "type": "folder"
+               }, {
+                  "children": [  ],
+                  "date_added": "13307455067678917",
+                  "date_last_used": "0",
+                  "date_modified": "13307455067678917",
+                  "guid": "499f9bec-479d-452c-a031-49787525de06",
+                  "id": "60",
+                  "name": "VM",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13306839947000000",
+                     "date_last_used": "0",
+                     "guid": "a984af86-3cec-41b1-beaf-9080f5fa263f",
+                     "id": "62",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://stg-bystronic.nanolocksecurity.nl/Account/Login?returnUrl=%2FHome&isError=False"
+                  }, {
+                     "date_added": "13306839969000000",
+                     "date_last_used": "0",
+                     "guid": "80634b3f-5313-40ba-aa72-04be5ab4c74c",
+                     "id": "63",
+                     "name": "Welcome to Keycloak",
+                     "type": "url",
+                     "url": "https://stg-bystronic-auth.nanolocksecurity.nl/auth/"
+                  } ],
+                  "date_added": "13307455067678996",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "8f4b16ce-a884-4700-aa85-3b4409104251",
+                  "id": "61",
+                  "name": "stg-bystronic",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13303992772000000",
+                     "date_last_used": "0",
+                     "guid": "f9b5a86c-5fc0-4ac5-92ad-6a2941e77599",
+                     "id": "65",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://qa.nanolocksecurity.nl/Account/Login?returnUrl=%2F&isError=False"
+                  }, {
+                     "date_added": "13303992772000000",
+                     "date_last_used": "0",
+                     "guid": "f266f704-7cbb-4624-b5ff-e5814ebc2466",
+                     "id": "66",
+                     "name": "Users Maanagement",
+                     "type": "url",
+                     "url": "https://qa-grupo-bimbo.nanolocksecurity.nl/sign-in?redirectURL=%2Fdashboard"
+                  }, {
+                     "date_added": "13303992772000000",
+                     "date_last_used": "0",
+                     "guid": "a2d58c36-3ac7-4515-ab5b-b7f407c81143",
+                     "id": "67",
+                     "name": "Configurations",
+                     "type": "url",
+                     "url": "http://qa.nanolocksecurity.nl:8090/"
+                  }, {
+                     "date_added": "13303992772000000",
+                     "date_last_used": "0",
+                     "guid": "be984c51-c23f-4c3d-b52c-ae0c111d7098",
+                     "id": "68",
+                     "name": "Keycloak",
+                     "type": "url",
+                     "url": "https://qa-auth.nanolocksecurity.nl/auth"
+                  }, {
+                     "date_added": "13304432029000000",
+                     "date_last_used": "0",
+                     "guid": "dbe39262-4548-47d6-834f-08561f47c74c",
+                     "id": "69",
+                     "name": "Kibana",
+                     "type": "url",
+                     "url": "https://qa.nanolocksecurity.nl/logs/app/kibana#/home?_g=()"
+                  } ],
+                  "date_added": "13307455067679224",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "f83e08bb-b039-418c-8d00-1a39f99494f8",
+                  "id": "64",
+                  "name": "QA-grupo-bimbo",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13306873448000000",
+                     "date_last_used": "13311859874672948",
+                     "guid": "184c477d-713c-4018-bc55-47d0d7f89ff1",
+                     "id": "71",
+                     "name": "nanolōck - Edge Protection",
+                     "type": "url",
+                     "url": "https://qa-bystronic.nanolocksecurity.nl/Account/Login?returnUrl=%2FHome&isError=False"
+                  } ],
+                  "date_added": "13307455067679720",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "881076ed-96b4-4174-b988-2b47ad036e29",
+                  "id": "70",
+                  "name": "QA-bystronic",
+                  "type": "folder"
+               }, {
+                  "date_added": "13303222215784954",
+                  "date_last_used": "13314181534470753",
+                  "guid": "af9ac3a7-c0b0-4d11-aa41-e2201788a7ff",
+                  "id": "11",
+                  "name": "Inbox",
+                  "type": "url",
+                  "url": "https://mail.google.com/mail/u/0/#inbox"
+               } ],
+               "date_added": "13307455067676183",
+               "date_last_used": "0",
+               "date_modified": "13310980099523226",
+               "guid": "83604855-d514-453a-9963-af2265111ddb",
+               "id": "30",
+               "name": "Nanolock Sites",
+               "type": "folder"
+            }, {
+               "date_added": "13303385764074179",
+               "date_last_used": "13313667356700076",
+               "guid": "8a29c94c-4d4a-497a-ab1e-363fae8a99d7",
+               "id": "15",
+               "name": "Hour Management System",
+               "type": "url",
+               "url": "https://app.propertime.co.il/"
+            }, {
+               "date_added": "13303217394351792",
+               "date_last_used": "13313662589729133",
+               "guid": "4db07637-26c2-4d71-88ca-829ea76a319a",
+               "id": "6",
+               "name": "Dashboard [Jenkins]",
+               "type": "url",
+               "url": "https://build.nanolocksecurity.nl/"
+            }, {
+               "date_added": "13303217437788392",
+               "date_last_used": "13314189222428238",
+               "guid": "11e48d54-ba5c-4cb0-a4a0-cb6b4bf31f0f",
+               "id": "8",
+               "name": "Kanban SRVR - Agile Board - Jira",
+               "type": "url",
+               "url": "https://nanolocksec.atlassian.net/jira/software/c/projects/SRVR/boards/5?selectedIssue=SRVR-284"
+            }, {
+               "date_added": "13304417683736221",
+               "date_last_used": "13311604483438259",
+               "guid": "8208d1bc-d374-43b2-83b5-0f53c2036045",
+               "id": "18",
+               "name": "DB Migration steps - Server - Confluence",
+               "type": "url",
+               "url": "https://nanolocksec.atlassian.net/wiki/spaces/SER/pages/8912897/DB+Migration+steps"
+            }, {
+               "date_added": "13303222747841663",
+               "date_last_used": "0",
+               "guid": "b7de63d2-46d0-46a4-a47c-f1d1c8366cc2",
+               "id": "12",
+               "name": "NanoLockSec.Services.Alerts - Repos",
+               "type": "url",
+               "url": "https://dev.azure.com/nanolocksec/NanoLockSec/_git/NanoLockSec.Services.Alerts"
+            }, {
+               "date_added": "13303217571994610",
+               "date_last_used": "0",
+               "guid": "a14dc864-e13e-4c79-9b44-290ca326c48d",
+               "id": "9",
+               "name": "Slack | projects | NanoLock Security",
+               "type": "url",
+               "url": "https://app.slack.com/client/T03FGEL77EZ/C03FKBWGMNX"
+            } ],
+            "date_added": "13314351603361601",
+            "date_last_used": "0",
+            "date_modified": "13314351808725040",
+            "guid": "7ea96dc9-c238-413f-8f35-b3d50c569fa1",
+            "id": "111",
+            "name": "work",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13276769461000000",
+                     "date_last_used": "0",
+                     "guid": "944f264f-f3d6-47b9-ba9e-7f0d6832792b",
+                     "id": "23",
+                     "name": "Hour Management System",
+                     "type": "url",
+                     "url": "https://app.propertime.co.il/UserLogin.aspx?signout=1"
+                  }, {
+                     "date_added": "13279622304000000",
+                     "date_last_used": "0",
+                     "guid": "3c88ee98-178e-45ed-8905-c2c023c8096f",
+                     "id": "24",
+                     "name": "Summary - Overview",
+                     "type": "url",
+                     "url": "https://dev.azure.com/nanolocksec/NanoLockSec"
+                  }, {
+                     "date_added": "13279728023000000",
+                     "date_last_used": "0",
+                     "guid": "501a5580-99c9-48dc-8b25-6eba016052aa",
+                     "id": "25",
+                     "name": "Jenkins",
+                     "type": "url",
+                     "url": "https://build.nanolocksecurity.nl/"
+                  }, {
+                     "date_added": "13282301867000000",
+                     "date_last_used": "0",
+                     "guid": "a7a59234-71b8-4774-b819-26bb27da0605",
+                     "id": "26",
+                     "name": "NanoLock Security – Google Cloud Platform",
+                     "type": "url",
+                     "url": "https://console.cloud.google.com/compute/instances?supportedpurview=project&project=macro-kiln-247514&organizationId=232504410374"
+                  }, {
+                     "date_added": "13282301917000000",
+                     "date_last_used": "0",
+                     "guid": "e4514999-7522-4c7a-be2c-35349d2b405b",
+                     "id": "27",
+                     "name": "NanoLock Security – Google Cloud Platform - Cloud Storage",
+                     "type": "url",
+                     "url": "https://console.cloud.google.com/storage/browser?organizationId=232504410374&project=macro-kiln-247514&supportedpurview=project&prefix="
+                  }, {
+                     "date_added": "13287400898000000",
+                     "date_last_used": "0",
+                     "guid": "480f1e75-fbe0-4327-8d50-6b3137bab45a",
+                     "id": "28",
+                     "name": "Jira",
+                     "type": "url",
+                     "url": "https://nanolocksec.atlassian.net/jira/software/c/projects/PROD/boards/2"
+                  }, {
+                     "date_added": "13298543928000000",
+                     "date_last_used": "0",
+                     "guid": "34e9df3e-5ad4-4213-b287-b5ba1bd92d0e",
+                     "id": "29",
+                     "name": "Home - Confluence",
+                     "type": "url",
+                     "url": "https://nanolocksec.atlassian.net/wiki/home"
+                  } ],
+                  "date_added": "13307455067675455",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "85d5e6be-969c-427f-b81f-4ad567d30946",
+                  "id": "22",
+                  "name": "IT",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13278349561000000",
+                     "date_last_used": "0",
+                     "guid": "ee7bc56f-d63d-404b-9ed9-add596a2144f",
+                     "id": "73",
+                     "name": "Introduction | keycloak-documentation",
+                     "type": "url",
+                     "url": "https://wjw465150.gitbooks.io/keycloak-documentation/content/index.html"
+                  }, {
+                     "date_added": "13279901320000000",
+                     "date_last_used": "0",
+                     "guid": "c346d4eb-d911-4378-bf0b-133e2a9ff3d0",
+                     "id": "74",
+                     "name": "Local Keycloak",
+                     "type": "url",
+                     "url": "http://localhost:8080/auth/admin/master/console/"
+                  }, {
+                     "date_added": "13279902001000000",
+                     "date_last_used": "0",
+                     "guid": "1f48a064-f62a-4a79-8621-c5f143697303",
+                     "id": "75",
+                     "name": "Keycloak Account Page",
+                     "type": "url",
+                     "url": "http://localhost:8080/auth/realms/nanolocksec/account"
+                  }, {
+                     "children": [ {
+                        "date_added": "13295518755000000",
+                        "date_last_used": "0",
+                        "guid": "110832da-4003-40ef-b009-23f4ba9433fd",
+                        "id": "77",
+                        "name": "Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/"
+                     }, {
+                        "date_added": "13280481307000000",
+                        "date_last_used": "0",
+                        "guid": "0527e8ad-d480-47da-a91c-5c7bb5a1798e",
+                        "id": "78",
+                        "name": "Can we set an admin user for a realm that is not master? - Miscellanaeous - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/can-we-set-an-admin-user-for-a-realm-that-is-not-master/11783"
+                     }, {
+                        "date_added": "13280481325000000",
+                        "date_last_used": "0",
+                        "guid": "25b7d7b2-f09d-4c99-a724-0eaa3d9219cd",
+                        "id": "79",
+                        "name": "Getting 500 on execute-actions-email API - Getting advice - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/getting-500-on-execute-actions-email-api/10871"
+                     }, {
+                        "date_added": "13280481339000000",
+                        "date_last_used": "0",
+                        "guid": "9d081359-1e3f-4510-9a2d-aa7941d81d6d",
+                        "id": "80",
+                        "name": "How to reset user password in keycloak using REST API - Getting advice - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/how-to-reset-user-password-in-keycloak-using-rest-api/3210"
+                     }, {
+                        "date_added": "13282220558000000",
+                        "date_last_used": "0",
+                        "guid": "d60abb65-f1be-465e-9862-b26bc29b1923",
+                        "id": "81",
+                        "name": "Custom Login Page with social login (not the one from Keycloak) - Securing applications - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/custom-login-page-with-social-login-not-the-one-from-keycloak/12166/9"
+                     }, {
+                        "date_added": "13282896761000000",
+                        "date_last_used": "0",
+                        "guid": "39ba60ec-c99e-4e64-b9e2-accdcfb3772e",
+                        "id": "82",
+                        "name": "Integrate \"Change password\" (from account console) into own webapp? - Getting advice - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/integrate-change-password-from-account-console-into-own-webapp/12300/9"
+                     }, {
+                        "date_added": "13296644159000000",
+                        "date_last_used": "0",
+                        "guid": "8e3263c1-d558-49e0-95ff-fbf39c9029da",
+                        "id": "83",
+                        "name": "How to get access token after login? - Miscellanaeous - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/how-to-get-access-token-after-login/14981/2"
+                     }, {
+                        "date_added": "13296644173000000",
+                        "date_last_used": "0",
+                        "guid": "028ab939-8bc6-420f-bb75-8169c3c95243",
+                        "id": "84",
+                        "name": "How to restrict user self registration? - Miscellanaeous - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/how-to-restrict-user-self-registration/15423"
+                     }, {
+                        "date_added": "13300271414000000",
+                        "date_last_used": "0",
+                        "guid": "2af57de7-70bb-41de-a591-f1a334f2e631",
+                        "id": "85",
+                        "name": "Creating user via Admin REST API using other oauth2 client than \"admin-cli\" - Getting advice - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/creating-user-via-admin-rest-api-using-other-oauth2-client-than-admin-cli/9807"
+                     }, {
+                        "date_added": "13300792822000000",
+                        "date_last_used": "0",
+                        "guid": "3045f324-7afa-42b4-820e-e245e29c1409",
+                        "id": "86",
+                        "name": "How to get access token after login? - Miscellanaeous - Keycloak",
+                        "type": "url",
+                        "url": "https://keycloak.discourse.group/t/how-to-get-access-token-after-login/14981/5"
+                     } ],
+                     "date_added": "13307455067680248",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "776acd7c-148a-48f9-ac8a-b5387ff6f1fd",
+                     "id": "76",
+                     "name": "Forum",
+                     "type": "folder"
+                  }, {
+                     "children": [ {
+                        "date_added": "13300186718000000",
+                        "date_last_used": "0",
+                        "guid": "788e26fa-6674-4035-83fd-698258230398",
+                        "id": "88",
+                        "name": "Keycloakify",
+                        "type": "url",
+                        "url": "https://www.keycloakify.dev/"
+                     }, {
+                        "date_added": "13300186709000000",
+                        "date_last_used": "0",
+                        "guid": "804ee1f0-8f4c-4056-969e-5856b73efc45",
+                        "id": "89",
+                        "name": "Keycloakify: Create Keycloak themes using React - DEV Community",
+                        "type": "url",
+                        "url": "https://dev.to/garronej/keycloakify-create-keycloak-themes-using-react-5b89"
+                     } ],
+                     "date_added": "13307455067681288",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "cb90c8e9-c8e8-4543-9e4c-9f487188576e",
+                     "id": "87",
+                     "name": "Themes",
+                     "type": "folder"
+                  }, {
+                     "children": [ {
+                        "date_added": "13280513486000000",
+                        "date_last_used": "0",
+                        "guid": "14a79dc4-f48a-4990-a9d7-d6680ae8439c",
+                        "id": "91",
+                        "name": "KeycloakRestAPI",
+                        "type": "url",
+                        "url": "https://documenter.getpostman.com/view/7294517/SzmfZHnd#f0ede40d-d0d5-4315-86dc-1be652017dd9"
+                     }, {
+                        "date_added": "13280513465000000",
+                        "date_last_used": "0",
+                        "guid": "752ab386-a836-4836-8e7f-c495d25e1d58",
+                        "id": "92",
+                        "name": "Keycloak Admin REST API",
+                        "type": "url",
+                        "url": "https://www.keycloak.org/docs-api/10.0/rest-api/index.html"
+                     }, {
+                        "date_added": "13297756554000000",
+                        "date_last_used": "0",
+                        "guid": "841b2f71-0afb-4efd-9925-54786609260c",
+                        "id": "93",
+                        "name": "GitHub - alexatiks/keycloak-postman-pre-request: Postman pre-request script to fetch a token from Keycloak and set it to a collection variable to use in request headers.",
+                        "type": "url",
+                        "url": "https://github.com/alexatiks/keycloak-postman-pre-request"
+                     } ],
+                     "date_added": "13307455067681549",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "991b89c9-dcac-4019-9d13-e4083b7f0247",
+                     "id": "90",
+                     "name": "Admin Rest API",
+                     "type": "folder"
+                  }, {
+                     "children": [  ],
+                     "date_added": "13307455067681920",
+                     "date_last_used": "0",
+                     "date_modified": "13307455067681920",
+                     "guid": "0c8d4a55-3c5c-48fa-8a2f-43300964663b",
+                     "id": "94",
+                     "name": "Webauthn",
+                     "type": "folder"
+                  }, {
+                     "date_added": "13300792855000000",
+                     "date_last_used": "0",
+                     "guid": "872bc722-1153-4a99-bf5c-df5b4c40e4d3",
+                     "id": "95",
+                     "name": "Webauthn configuration with Keycloak and a Yubikey - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=ydvu7d5JFwU"
+                  }, {
+                     "date_added": "13303210755000000",
+                     "date_last_used": "0",
+                     "guid": "8b03aead-551d-42b6-9020-c871baf23047",
+                     "id": "96",
+                     "name": "Keycloak User - Google Groups",
+                     "type": "url",
+                     "url": "https://groups.google.com/g/keycloak-user"
+                  }, {
+                     "date_added": "13306772428000000",
+                     "date_last_used": "0",
+                     "guid": "1ec88b9a-9349-44ef-b138-6c83df20c347",
+                     "id": "97",
+                     "name": "Admin CLI | keycloak-documentation",
+                     "type": "url",
+                     "url": "https://wjw465150.gitbooks.io/keycloak-documentation/content/server_admin/topics/admin-cli.html"
+                  } ],
+                  "date_added": "13307455067679899",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "9aebc298-09f4-47e9-b47a-e853446898c5",
+                  "id": "72",
+                  "name": "KeyCloak",
+                  "type": "folder"
+               }, {
+                  "date_added": "13276856342000000",
+                  "date_last_used": "0",
+                  "guid": "a9fc9b13-d8f8-4f3f-b846-00da7f2a7389",
+                  "id": "98",
+                  "name": "RabbitMQ Management - Test",
+                  "type": "url",
+                  "url": "http://localhost:15672/#/"
+               }, {
+                  "children": [ {
+                     "date_added": "13305728966000000",
+                     "date_last_used": "0",
+                     "guid": "cf7d6a05-b146-49b5-8424-2104f5973017",
+                     "id": "100",
+                     "name": "Instantly parse JSON in any language | quicktype",
+                     "type": "url",
+                     "url": "https://app.quicktype.io/?l=csharp"
+                  }, {
+                     "date_added": "13280762889000000",
+                     "date_last_used": "0",
+                     "guid": "f6cd3c8a-ceb8-4622-ab95-8cac3da6edef",
+                     "id": "101",
+                     "name": "JSON Web Tokens - jwt.io",
+                     "type": "url",
+                     "url": "https://jwt.io/"
+                  }, {
+                     "date_added": "13280506315000000",
+                     "date_last_used": "0",
+                     "guid": "2c258a60-0f24-42e5-8850-c9b649d78a8b",
+                     "id": "102",
+                     "name": "Json2CSharp",
+                     "type": "url",
+                     "url": "https://json2csharp.com/json-to-csharp"
+                  }, {
+                     "date_added": "13305731628000000",
+                     "date_last_used": "0",
+                     "guid": "10481483-31f4-4682-8e02-dae7494a6212",
+                     "id": "103",
+                     "name": "JSON diff - Online JSON Compare tool",
+                     "type": "url",
+                     "url": "https://extendsclass.com/json-diff.html"
+                  }, {
+                     "date_added": "13306930032000000",
+                     "date_last_used": "0",
+                     "guid": "af9899a6-4358-4751-84d9-24209891ea2a",
+                     "id": "104",
+                     "name": "JSON Online Validator and Formatter - JSON Lint",
+                     "type": "url",
+                     "url": "https://jsonlint.com/"
+                  } ],
+                  "date_added": "13307455067682354",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "99951814-948d-435c-9717-bb928884e5ca",
+                  "id": "99",
+                  "name": "Json",
+                  "type": "folder"
+               }, {
+                  "date_added": "13306420761000000",
+                  "date_last_used": "0",
+                  "guid": "999666bd-bc37-4f59-9f95-6416fc2dda2c",
+                  "id": "105",
+                  "name": "403 Forbidden vs 401 Unauthorized HTTP responses - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/3297048/403-forbidden-vs-401-unauthorized-http-responses"
+               }, {
+                  "date_added": "13306492306000000",
+                  "date_last_used": "0",
+                  "guid": "c8daad22-e8ed-4195-ac3e-215f4f871c0d",
+                  "id": "106",
+                  "name": "CORS cookie with domain field is setting only in Firefox using jQuery AJAX - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/13953908/cors-cookie-with-domain-field-is-setting-only-in-firefox-using-jquery-ajax/16634887#16634887"
+               } ],
+               "date_added": "13307455067675367",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "60899209-c0c9-4770-be67-ad6d7090c59e",
+               "id": "21",
+               "name": "Bookmarks bar",
+               "type": "folder"
+            } ],
+            "date_added": "13307455067675043",
+            "date_last_used": "0",
+            "date_modified": "13307455067675043",
+            "guid": "95491708-47f3-4aed-a353-eb07865314df",
+            "id": "20",
+            "name": "Imported",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13303217403281708",
+               "date_last_used": "13314184973853431",
+               "guid": "ec9b90a2-fb9d-4389-ad19-521b84313373",
+               "id": "7",
+               "name": "Cibus Sodexo – סיבוס סודקסו הזמנת משלוחים, הנחות במסעדות",
+               "type": "url",
+               "url": "https://www.mysodexo.co.il/new_prev.aspx?prev=1&ta=0&weekend=0&u=4265271&s=80"
+            } ],
+            "date_added": "13307455154290738",
+            "date_last_used": "0",
+            "date_modified": "13307455160852705",
+            "guid": "2b81fa13-90e7-456a-adf6-1e6a3dec6054",
+            "id": "107",
+            "name": "food",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13303723548703923",
+               "date_last_used": "0",
+               "guid": "5e1679f6-436e-4ca2-8a52-4483b6c4fce4",
+               "id": "17",
+               "name": "Sign and fill PDFs with a free online PDF filler | Adobe Acrobat (Israel)",
+               "type": "url",
+               "url": "https://www.adobe.com/il_en/acrobat/online/sign-pdf.html"
+            } ],
+            "date_added": "13314351645707192",
+            "date_last_used": "0",
+            "date_modified": "13314351648307744",
+            "guid": "c2a00b90-2e61-4b78-b39d-6b02d44a980a",
+            "id": "112",
+            "name": "file tools",
+            "type": "folder"
+         } ],
+         "date_added": "13303211071531173",
+         "date_last_used": "0",
+         "date_modified": "13314351645707735",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13303211071531179",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13303211071531181",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
