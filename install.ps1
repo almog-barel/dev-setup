@@ -33,6 +33,7 @@ winget install -e --id Canonical.Ubuntu
 winget install -e --id Grammarly.Grammarly
 winget install -e --id Microsoft.PowerToys
 winget install -e --id SlackTechnologies.Slack
+winget install -e --id JGraph.Draw
 
 # vs code extension
 # backup the current extension list with : code --list-extensions | % { "code --install-extension $_" }XK9XR58A
