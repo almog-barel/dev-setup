@@ -11,5 +11,8 @@ New-Item -Path ~\AppData\Roaming\Code\User\keybindings.json -ItemType SymbolicLi
 New-Item -Path ~\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Value .\.dotfles\vscode\settings.json -Force
 New-Item -Path ~\AppData\Roaming\Code\User\snippets -ItemType SymbolicLink -Value .\.dotfles\vscode\snippets -Force
 
+#microsoft terminal settings
+New-Item -Path ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json -ItemType SymbolicLink -Value .\.dotfles\WindowsTerminal\settings.json -Force
+
 #cchrome bookmarks
 New-Item -Path '~\AppData\Local\Google\Chrome\User Data\Default\Bookmarks' -ItemType SymbolicLink -Value .\.dotfles\chrome\Bookmarks -Force
