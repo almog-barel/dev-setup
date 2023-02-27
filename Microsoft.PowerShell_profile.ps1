@@ -63,6 +63,10 @@ function ip {
     echo "global : $(ip-global)"
 }
 
+function new-migration($name) {
+    dotnet ef migrations add $name
+}
+
 function update-database {
     dotnet ef database update
 }
