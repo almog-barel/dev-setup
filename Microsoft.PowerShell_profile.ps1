@@ -38,6 +38,10 @@ function cdc {
     cd -Path C:\
 }
 
+function cdn {
+    cd -Path C:\nanolock
+}
+
 function cdcn {
     cd -Path C:\nanolock
 }
