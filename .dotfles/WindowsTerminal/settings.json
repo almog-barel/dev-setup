@@ -31,8 +31,14 @@
             },
             "keys": "alt+shift+d"
         },
-        { "command": { "action": "sendInput", "input": "htop" }, "keys": "ctrl+shift+w" },
-        { "command": { "action": "sendInput", "input": "nanolocksec" }, "keys": "alt+n" }
+        { "command": "find","keys": "ctrl+f" },
+        { "command": "newTab", "keys": "ctrl+n" },
+        { "command": "closeTab", "keys": "ctrl+w" },
+        { "command": "nextTab", "keys": "ctrl+tab" },
+        // macros
+        { "command": { "action": "sendInput", "input": "nanolocksec" }, "keys": "alt+n" },
+        { "command": { "action": "sendInput", "input": "python" }, "keys": "alt+p" }
+        
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
