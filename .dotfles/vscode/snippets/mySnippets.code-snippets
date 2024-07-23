@@ -32,6 +32,57 @@
 			]
 		},
 
+		"param" : {
+			"scope": "csharp",
+			"prefix": ["parameter", "param", "///"],
+			"body": [
+				"/// <param name=\"name\">description</param>"
+			]
+		},
+
+		"returns" : {
+			"scope": "csharp",
+			"prefix": ["returns", "///"],
+			"body": [
+				"/// <returns> $1 </returns>"
+			]
+		},
+
+		"endpoint" : {
+			"prefix": "endpoint",
+			"scope": "csharp",
+			"body": [
+				"[HttpPost]",
+				"[ProducesResponseType(StatusCodes.Status204NoContent)]",
+				"[ProducesResponseType(StatusCodes.Status400BadRequest)]",
+				"[ProducesResponseType(StatusCodes.Status500InternalServerError)]",
+				"public async Task<IActionResult> $1 ()",
+				"{",
+					"try",
+					"{",
+						"return Ok();",
+					"}",
+					"catch (Exception ex)",
+					"{",
+						"_logger.LogError(ex, $\"Exception in {nameof(UsersController)}/{nameof(GetUsers)}\");",
+						"return this.StatusCode(StatusCodes.Status500InternalServerError);",
+					"}",
+				"}"
+			]
+		},
+
+		"serialize" : {
+			"scope": "csharp",
+			"prefix": "serialize",
+			"body": "JsonSerializer.Serialize($1)"
+		},
+
+		"deserialize" : {
+			"scope": "csharp",
+			"prefix": "deserialize",
+			"body": "JsonSerializer.Deserialize<Dictionary<string, dynamic>>($1)"
+		},
+
 		"controller" : {
 			"scope": "csharp",
 			"prefix": ["controller"],
@@ -77,6 +128,44 @@
 				"}",
 				"",
 			],
+		},
+
+		"console write line" : {
+			"scope": "csharp",
+			"prefix": ["wl", "cw"],
+			"body": "Console.WriteLine($1);"
+		},
+
+		"minimal api middleware": {
+			"scope": "csharp",
+			"prefix": ["middleware", "app.Use"],
+		},
+
+		"retrun this": {
+			"scope": "scharp",
+			"prefix" : ["rt", "retrun", "this"],
+			"body" : "retrun this;"
+		}
+
+
+		"deamon Service": {
+			"scope": "Plain Text",
+			"prefix": ["service", "deamon"],
+			"body": [
+				"[Unit]",
+				"Description=<Your service description>",
+				"After=multi-user.target",
+				"",
+				"[Service]",
+				"Type=forking",
+				"User=<user_to_run_the_service>",
+				"Group=<group_of_the_user>",
+				"WorkingDirectory=<path_to_your_executable>",
+				"ExecStart=<path_to_your_executable>",
+				"",
+				"[Install]",
+				"WantedBy=multi-user.target"
+			]
 		}
 
 
