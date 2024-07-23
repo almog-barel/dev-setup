@@ -1,4 +1,6 @@
 {
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
     "workbench.colorTheme": "Atom One Dark",
     "terminal.integrated.fontFamily": "Hack NF",
     "gitlens.gitCommands.skipConfirmations": [
@@ -9,10 +11,25 @@
     ],
     "thunder-client.codeSnippetLanguage": "cs-httpclient",
     "cSpell.userWords": [
+        "datasources",
+        "Endianness",
+        "esxi",
+        "Gpio",
+        "keycloak",
         "keyclock",
+        "modbus",
+        "Nanolock",
+        "nanolocksec",
+        "nanolocksecurity",
         "nlms",
+        "ossp",
         "otui",
-        "seccsussfull"
+        "PLPGSQL",
+        "psycopg",
+        "seccsussfull",
+        "sslmode",
+        "umas",
+        "unsessery"
     ],
     "indentRainbow.indicatorStyle": "light",
     "vscodeGitCommit.variables": {
@@ -20,11 +37,18 @@
     },
     "git.mergeEditor": false,
     "window.title": "${rootName}",
-    "codestream.serverUrl": "https://api.codestream.com",
     "remote.SSH.remotePlatform": {
         "dev01": "linux",
         "nl": "linux",
-        "QaBystronic": "linux"
+        "QaBystronic": "linux",
+        "nivs": "linux",
+        "qa": "linux",
+        "35.246.199.84": "linux",
+        "dev-otd": "linux",
+        "qa-otd": "linux",
+        "vm": "linux",
+        "qaotd201": "linux",
+        "nivs.coo.il": "linux"
     },
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
@@ -36,7 +60,7 @@
         "info"
     ],
     "yaml.schemas": {
-        "file:///c%3A/Users/almog/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///c%3A/Users/almog/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.jira.enabled": true,
     "atlascode.bitbucket.enabled": false,
@@ -44,11 +68,34 @@
         {
             "id": "40304f10-d532-4607-b205-49feec62213d",
             "enabled": true,
-            "name": "My nanolocksec Issues",
-            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "name": "2.0.1",
+            "query": "assignee = currentUser() AND fixVersion = \"OTD 2.0.1\" AND resolution = Unresolved ORDER BY lastViewed DESC",
             "siteId": "b6b18c99-3022-4b10-9b46-4e1bc0aa8b39",
             "monitor": true
         }
     ],
-    "window.zoomLevel": 1
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "codeQL.telemetry.enableTelemetry": false,
+    "polyglot-notebook.defaultNotebookExtension": ".dib",
+    "polyglot-notebook.defaultNotebookLanguage": "csharp",
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
+    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
+    "window.titleBarStyle": "custom",
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "",
+        "projectKey": ""
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 1,
+    "gitlens.views.commitDetails.files.layout": "list",
+    "gitlens.ai.experimental.provider": "anthropic",
+    "gitlens.ai.experimental.anthropic.model": "claude-2.1",
+    "vscode_vibrancy.theme": "Default Dark",
+    "codestream.serverUrl": "https://codestream-us1.service.newrelic.com"
 }
