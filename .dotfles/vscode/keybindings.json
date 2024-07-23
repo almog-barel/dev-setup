@@ -9,9 +9,32 @@
         "key": "ctrl+pagedown",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
-    },{
+    },
+    {
         "key": "ctrl+i",
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "f2",
+        "command": "workbench.action.terminal.rename",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "nanolocksec"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "continue.quickEdit"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-continue.quickEdit"
     }
+
 ]
