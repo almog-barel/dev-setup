@@ -8,7 +8,6 @@
         { "command": "find", "keys": "ctrl+shift+f" },
         { "command": "unbound" },
         { "command":  { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
-        
         // tab short hand
         { "command": "find","keys": "ctrl+f" },
         { "command": "newTab", "keys": "ctrl+n" },
@@ -25,7 +24,6 @@
         { "command": { "action": "switchToTab", "index": 7 }, "keys": "ctrl+7" },
         { "command": { "action": "switchToTab", "index": 8 }, "keys": "ctrl+8" },
         { "command": { "action": "switchToTab", "index": 9 }, "keys": "ctrl+9" },
-
         // split pane
         { "command": { "action": "splitPane", "split": "up" }, "keys": "ctrl+alt+up"},
         { "command": { "action": "splitPane", "split": "left" }, "keys": "ctrl+alt+left"},
