@@ -28,7 +28,7 @@ winget install -e --id WiresharkFoundation.Wireshark
 # other
 winget install -e --id Zoom.Zoom
 winget install -e --id 7zip.7zip
-winget install -e --id PuTTY.PuTTY
+winget install -e --id PuTTY.PuTTY 
 winget install -e --id Google.Chrome
 winget install -e --id Canonical.Ubuntu
 winget install -e --id Grammarly.Grammarly
