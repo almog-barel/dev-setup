@@ -10,6 +10,7 @@ winget install -e --id JanDeDobbeleer.OhMyPosh
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id SourceFoundry.HackFonts
 npm install -g tldr
+npm install -g yo
 
 # IDEs
 winget install -e --id Microsoft.VisualStudioCode
