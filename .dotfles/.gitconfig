@@ -22,12 +22,18 @@
 [mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
+    
 [alias] # taken from https://www.30secondsofcode.org/articles/s/git-aliases
+    sync = !git pull && git push
+    remote = !chrome $(git config --get remote.origin.url)
+    rename = branch -m
+    publish = !git push --set-upstream origin $(git branch --show-current)
+    cbr = branch --show-current
+    # 
     co = checkout
     cob = checkout -b
     coo = !git fetch && git checkout
     br = branch
-    cbr = branch --show-current
     brd = branch -d
     st = status
     aa = add -A .
@@ -50,8 +56,6 @@
     pop = stash pop
     apply = stash apply
     rl = reflog
-	sync = !git pull && git push
-	chrome = !google-chrome $(git config --get remote.origin.url)
 [credential]
 	helper = wincred
 [protocol "file"]
