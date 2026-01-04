@@ -11,6 +11,7 @@ winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id SourceFoundry.HackFonts
 npm install -g tldr
 npm install -g yo
+winget install ajeetdsouza.zoxide
 
 # IDEs
 winget install -e --id Microsoft.VisualStudioCode

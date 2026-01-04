@@ -8,6 +8,9 @@ Invoke-Expression (& "C:\Program Files\starship\bin\starship.exe" init powershel
 
 Import-Module -Name Terminal-Icons
 
+# zoxide
+Invoke-Expression (& { (zoxide init --cmd cd powershell | Out-String) })
+
 # Increase the number of records in your PSReadLine history
 Set-PSReadLineOption -MaximumHistoryCount 10000
 # get history file
